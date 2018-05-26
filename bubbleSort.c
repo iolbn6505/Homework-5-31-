@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 11
-void bubbleSort(const int *Copy)//沫排序函數 (指向常數資料的非常數指標)
+void bubbleSort(const int const *Copy)//沫排序函數 (指向常數資料的常數指標)
 {
 	int i,pass,hold;
 	int arrayCopy[SIZE];//宣告arrayCopy來複製陣列資料 
